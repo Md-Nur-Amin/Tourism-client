@@ -5,6 +5,7 @@ import TouristCard from '../TouristCard/TouristCard';
 import CountryCard from '../CountryCard/CountryCard';
 import { useEffect } from 'react';
 import Aos from 'aos';
+import ExtraSection from '../ExtraSection/ExtraSection';
 
 const Home = () => {
     const loadedTourists = useLoaderData();
@@ -25,8 +26,8 @@ const Home = () => {
                         <TouristCard
                             key={tourist._id}
                             tourist={tourist}
-                            // tourists={tourists}
-                            // setTourists={setTourists}
+                        // tourists={tourists}
+                        // setTourists={setTourists}
                         />
                     ))}
                 </div>
@@ -40,6 +41,9 @@ const Home = () => {
                     ))}
                 </div>
             </div>
+
+            <ExtraSection></ExtraSection>
+
         </div>
     );
 }

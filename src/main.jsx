@@ -22,6 +22,7 @@ import AllCountry from './Components/AllCountry/AllCountry.jsx';
 import CountryDetails from './Components/CountryDetails.jsx/CountryDetails.jsx';
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 import Theme from './Components/Theme/Theme.jsx';
+import ExtraSection from './Components/ExtraSection/ExtraSection.jsx';
 
 
 
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: '/profile',
         element: <Theme></Theme>,
+      },
+      {
+        path: '/extraSection',
+        element: <ExtraSection></ExtraSection>
       },
       {
         path: '/theme',
