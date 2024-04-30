@@ -1,0 +1,40 @@
+.slide {
+    
+    margin-top: 0vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 20px; */
+}
+
+.slide1{
+
+    background-image: url('../../assets/landscape_1.jpg');
+    opacity: 0.9;
+}
+
+.slide2{
+
+    background-image: url('../../assets/landscape_2.jpg');
+    opacity: 0.9;
+}
+
+.slide3{
+
+    background-image: url('../../assets/landscape_3.jpg');
+    opacity: 0.9;
+}
+
+/* .slide4{
+
+    background-image: url('../../assets/1.jpg');
+}
+.slide5{
+
+    background-image: url('../../assets/6.jpg');
+} */
